@@ -1,0 +1,15 @@
+﻿<Window x:Class="Mastermind.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mastermind"
+        mc:Ignorable="d"
+        Title="Window2" Height="371.08" Width="427.379">
+    <Grid>
+        <Button x:Name="button" Content="Back to Difficulty Select" HorizontalAlignment="Left" Height="25" Margin="266,307,0,0" VerticalAlignment="Top" Width="145" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="37" Margin="101,10,0,0" TextWrapping="Wrap" Text="How To Play" VerticalAlignment="Top" Width="229" FontSize="30" TextDecorations="Underline" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="250" Margin="10,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401"><Run Text="This game is based off of the classic board game Mastermind, where the objective is to guess the combination of colours within a certain amount of moves. This version is a little different, however."/><LineBreak/><Run Text="Instead of guessing colours, you will guess numbers, and you score points for each incorrect answer!"/><LineBreak/><Run Text="When you start, you can input your first guess. Remember,"/><Run Text=" the number is between 1 and 9. When you press enter, your guess will appear above"/><Run Text=" accompanied"/><Run Text=" with"/><Run Text=" certain colours. Here's what the colours mean:"/><LineBreak/><Run Text="Red: The number guessed is not part of the sequence. "/><Run Text="5"/><Run Text=" points."/><LineBreak/><Run Text="Orange: The number guessed in part of the sequence, but is not in the correct place. "/><Run Text="2"/><Run Text=" points."/><LineBreak/><Run Text="Green: The number guessed is in the correct place. You do not receive any points."/></TextBlock>
+
+    </Grid>
+</Window>
